@@ -19,7 +19,10 @@ int main()
 
     n.tulosta();
     n.postita("Tama on testi viesti 1.");
+
+    n.poista(&a);
     n.poista(&c);
+
     n.postita("Tama on testi viesti 2.");
 
     return 0;
